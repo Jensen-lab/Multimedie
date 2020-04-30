@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Nyhedsbrev</title>
+</head>
+<body>
+	
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: "pt-sans-narrow"
+		background: rgb(190,235,228);
+		background:linear-gradient(90deg, rgba(190,235,228,1.00)1%,  rgba(226,245,242,1.00)99%);
+		color: #3A3A3A;
+	}
+	.top-nav {
+		margin: 10px;
+		margin-right: 30px;
+	}
+	
+	.top-nav a {
+		margin-right: 15px;
+		text-decoration: none;
+		padding: 7px;
+		color: #3A3A3A;
+	}
+	.top-nav input {
+		margin-right: 15px;
+		border: none;
+		padding: 7px;
+	}
+	.oversfkrift {
+		margin-top: 150px;
+	}
+	.indhold {
+		position: relative;
+		top: 140px;
+	}
+	.indhold input {
+		border: none;
+		padding: 3px;
+		margin-right: 5px;
+	}
+	.indhold button {
+		background-color: #FFBC0D;
+		border-radius: 5px;
+		border: none;
+		padding: 3px;
+	}
+</style>	
+	
+	<div class="container">
+
+		<nav class="top-nav text-right font-weight-normal">
+			<input type="text" placeholder="Søg..">
+			<a href="index.html">SommerChancen</a>
+			<a href="#">Find restaurant</a>
+			<a style="background-color: #FFBC0D; border-radius: 5px; " href="#">McDelivery</a>
+		</nav>
+	
+	<div class="midt">
+		<div class="text-center indhold">
+	  		<h1 class="text-center oversfkrift">McRead</h1>
+	  		<p class="text-center">Tilmeld dig vores nyhedsbrev, og vær blandt de første til at læse vores nyheder</p>
+			<form id="form" onSubmit="return validation()">
+				<div>
+					<input id="mail" type="text" placeholder="Mail">
+					<input type="text" placeholder="Navn">
+					<button id="tilmeld">tilmeld</button>
+					<p class="text-center" style="background-color: red; margin-top: 5px;"  id="tekst"></p>
+				</div>
+			</form>
+			
+		</div>
+	</div>
+</div><!-- container -->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/ballon.js"></script>
+</body>
+</html>
