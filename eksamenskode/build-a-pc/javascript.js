@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	var scrollLink = $('.scroll');
 	
-	// smoothscroll
+	// smoothscroll når man benytter top menuen
 	
 	scrollLink.click(function(e) {
 		e.preventDefault();
@@ -11,4 +11,3 @@ $(document).ready(function(){
 		}, 1500)
 	})
 })
-
