@@ -1,0 +1,88 @@
+
+.section {
+	color: white;
+	font-weight: 300;
+	font-size: 1.5vh;
+}
+
+.section h1 {
+	padding-top: 15vh;
+}
+
+.section-o {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: 120%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-o p {
+	font-weight: 300;
+	margin-top: 2vh;
+	font-size: 1.5vh;
+}
+
+
+.section-o span {
+	font-weight: bold;
+}
+
+#section0 {
+	height: 110vh;
+/*  background: rgba(0,0,0,0.00); */
+  	
+}
+
+#section1 {
+  	height: 110vh;
+/*  background: rgba(0,0,0,0.00); */
+}
+
+#section2 {
+  	height: 110vh;
+/*  background: rgba(0,0,0,0.00); */
+}
+
+#section3 {
+  	height: 110vh;
+/*  background: rgba(0,0,0,0.00); */
+}
+
+#section4 {
+  	height: 110vh;
+/*  background: rgba(0,0,0,0.00); */
+}
+
+#section5 {
+	height: 110vh;
+/*	background: rgba(0,0,0,0.00); */
+	
+}
+
+#section6 {
+	height: 110vh;
+/*	background: rgba(0,0,0,0.00); */
+}
+
+#section7 {
+	height: 110vh;
+/*	background: rgba(0,0,0,0.00); */
+}
+
+#section8 {
+	height: 110vh;
+/*	background: rgba(0,0,0,0.00); */
+}
+
+#background {
+	background: linear-gradient(#001233, #33415C, #5C677D, #7D8597, #979DAC)
+}
+
+
+
+
